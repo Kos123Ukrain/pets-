@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Шапка */
+.header {
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.logo, .footer-logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-links a.active, .nav-links a:hover {
+    color: #98ff98;
+}
+
+/* Общие кнопки */
+.btn-green {
+    display: inline-block;
+    background-color: #b2ff66;
+    color: #111;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.btn-outline {
+    display: inline-block;
+    border: 2px solid #b2ff66;
+    color: #111;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-outline:hover {
+    background-color: #b2ff66;
+}
+
+/* Секция Hero */
+.hero-section {
+    display: flex;
+    background-color: #f9f9f9;
+    align-items: center;
+}
+
+.hero-content {
+    flex: 1;
+    padding: 0 80px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #111;
+    line-height: 1.2;
+}
+
+.hero-content h1 span {
+    font-weight: 900;
+}
+
+.hero-img-box {
+    flex: 1;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
